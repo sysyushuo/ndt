@@ -7,7 +7,7 @@ this moudle contain mapping and matching
 
 
 重定位模块
-1.将建图模块生成的pcd点云文件放到 路径ndt_test/src/lidar_localizer/map_data/park_base0329.pcd下
+1.将建图模块生成的pcd点云文件放到 路径ndt_test/src/lidar_localizer/map_data/*.pcd下
 
 
 需要修改的参数提示:
