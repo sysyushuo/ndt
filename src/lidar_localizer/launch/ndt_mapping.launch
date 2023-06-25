@@ -15,7 +15,6 @@
   <param name="file_name" value="$(find lidar_localizer)/lidar_path_$(arg file).txt" type="string"/>
   <param name="path_store_flag" value="$(arg path_flag)" type="bool"/>
   <param name="pcd_path" value="~/Documents/map_data/map_generated.pcd" />
-  <!-- <param name="lidar_topic" value="/carla/ego_vehicle/lidar" /> -->
   <param name="lidar_topic" value="/velodyne_points" />
   <param name="tf_x" value="0.0" />
   <param name="tf_y" value="0.0" />
