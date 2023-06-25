@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find lidar_localizer)/launch/static_tf.launch" />
+  <include file="$(find lidar_localizer)/launch/map_loader.launch" />
+  <include file="$(find lidar_localizer)/launch/points_downsample.launch" />
+  <include file="$(find lidar_localizer)/launch/ndt_matching.launch" />
+</launch>
